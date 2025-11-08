@@ -1,0 +1,77 @@
+[Adblock Plus 2.0]
+! Title: 🦄 Unicorn Ultimate Filter (by Diego)
+! Version: 2025.11.08
+! Description: Filtros personalizados otimizados para Android, Cromite, NextDNS e AdGuard.
+! Homepage: https://github.com/diegotechlab/unicorn-filters
+! Last modified: 2025-11-08
+! Maintainer: Diego
+! License: CC BY-NC-SA 4.0
+! 
+! ────────────────────────────────
+! 🧱 CHANGELOG AUTOMÁTICO
+! v2025.11.08 → Versão inicial completa
+!   • Baseada em Unicorn + NextDNS Hybrid Filters
+!   • Inclui cosméticos Turtlecute e D3ward
+!   • Ajuste total para Cromite / Adblock Plus
+! ────────────────────────────────
+
+! === BLOQUEIO GOOGLE / YOUTUBE ===
+||pagead2.googlesyndication.com^
+||adservice.google.com^
+||ad.doubleclick.net^
+||googletagservices.com^
+||googletagmanager.com^
+||securepubads.g.doubleclick.net^
+||tpc.googlesyndication.com^
+||adclick.g.doubleclick.net^
+||ads.youtube.com^
+||youtubeadexchange.net^
+||partner.googleadservices.com^
+
+! === TRACKERS / REDES SOCIAIS ===
+||analytics.s3.amazonaws.com^
+||adc3-launch.adcolony.com^
+||ads.linkedin.com^
+||analytics.pointdrive.linkedin.com^
+||graph.facebook.com^
+||connect.facebook.net^
+||facebook.net^
+||tiktokv.com^
+||business.tiktok.com^
+
+! === AMAZON / E-COMMERCE ===
+||adtago.s3.amazonaws.com^
+||zonaws.com^
+||advice-ads.amazon.com^
+||fls-na.amazon.com^
+||amazon-adsystem.com^
+
+! === COSMÉTICOS (remove espaços de anúncios) ===
+d3ward.github.io##.textads
+adblock.turtlecute.org##.adbox.banner_ads.adsbox
+apkcombo.com##.adsbygoogle
+apkcombo.com##.ad-banner
+apkmirror.com##.ad-container
+apkmirror.com##.advertisement
+
+! === BLOQUEIO DE JS / TRACKING ===
+||ads.js^
+||pagead.js^
+||widget/ads.^
+||googlesyndication.com/pagead^
+
+! === DOMÍNIOS DE TRACKING GERAIS ===
+||quantserve.com^
+||scorecardresearch.com^
+||criteo.com^
+||taboola.com^
+||outbrain.com^
+||zedo.com^
+||smartadserver.com^
+||teads.tv^
+
+! === EXCEÇÕES ===
+@@||adblock.turtlecute.org^$document
+! (permite o site de teste de AdBlock)
+
+! === FIM DO ARQUIVO ===
